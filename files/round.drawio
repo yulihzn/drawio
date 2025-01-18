@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="2Br9nc49Jg9WiYpjVA3y">
-    <mxGraphModel>
+    <mxGraphModel dx="420" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PevXTQub8zok8tY5BlQt-1" value="回合开始" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="164" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PevXTQub8zok8tY5BlQt-2" value="检查游戏是否结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="262" width="120" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="PevXTQub8zok8tY5BlQt-3" value="放置新生成的草" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="338" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
