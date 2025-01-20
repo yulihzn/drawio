@@ -101,7 +101,7 @@
         <mxCell id="wRGz6e7Im5JX6txt7jcM-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-11" target="wRGz6e7Im5JX6txt7jcM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-11" value="玩家道具触发攻击前事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-11" value="玩家道具触发攻击事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="1177" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-15" target="wRGz6e7Im5JX6txt7jcM-17">
@@ -110,38 +110,49 @@
         <mxCell id="wRGz6e7Im5JX6txt7jcM-15" value="目标道具触发被攻击前事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-17" target="wRGz6e7Im5JX6txt7jcM-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-17" value="计算攻击伤害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-17" value="玩家道具触发攻击事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-22" value="是" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-19" target="wRGz6e7Im5JX6txt7jcM-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-19" value="目标是否死亡" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1545" width="80" height="80" as="geometry" />
+          <mxGeometry x="165" y="1764" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-20" target="wRGz6e7Im5JX6txt7jcM-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-20" value="玩家道具触发击杀事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-26" y="1555" width="120" height="60" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-20" value="玩家道具触发造成伤害事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1774" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-21" target="wRGz6e7Im5JX6txt7jcM-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-21" value="玩家道具触发造成伤害事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-191" y="1555" width="120" height="60" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-21" value="玩家道具触发击杀事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-186" y="1774" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-28" target="wRGz6e7Im5JX6txt7jcM-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-28" value="玩家道具触发攻击事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="139" y="1457" width="120" height="60" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-28" value="计算攻击伤害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1595" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-30" value="目标道具触发死亡事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-339" y="1555" width="120" height="60" as="geometry" />
+          <mxGeometry x="-334" y="1774" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-32" value="玩家道具触发造成伤害事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-281" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-33" target="wRGz6e7Im5JX6txt7jcM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-37" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-36">
+          <mxGeometry x="0.0436" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-33" value="是否闪避" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1481" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-35" value="目标道具触发闪避事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="1491" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
