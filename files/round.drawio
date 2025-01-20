@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="2Br9nc49Jg9WiYpjVA3y">
-    <mxGraphModel dx="1242" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-1" value="回合开始" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-96" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PevXTQub8zok8tY5BlQt-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-2" target="PevXTQub8zok8tY5BlQt-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PevXTQub8zok8tY5BlQt-2" value="检查游戏是否结束" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="262" width="120" height="62" as="geometry" />
+          <mxGeometry x="140" y="41" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-3" target="PevXTQub8zok8tY5BlQt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -29,8 +23,10 @@
           <mxGeometry x="140" y="461" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="否" id="PevXTQub8zok8tY5BlQt-8">
-          <mxCell style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-5" target="PevXTQub8zok8tY5BlQt-2" edge="1">
-            <mxGeometry relative="1" as="geometry" />
+          <mxCell style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-5" target="PevXTQub8zok8tY5BlQt-3" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="199.99999999999977" y="262" as="targetPoint" />
+            </mxGeometry>
           </mxCell>
         </UserObject>
         <mxCell id="PevXTQub8zok8tY5BlQt-10" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="PevXTQub8zok8tY5BlQt-8" vertex="1" connectable="0">
@@ -49,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-5" value="检查游戏是否结束" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139" y="79" width="122" height="116" as="geometry" />
+          <mxGeometry x="137" y="167" width="122" height="116" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-13" target="PevXTQub8zok8tY5BlQt-14">
           <mxGeometry relative="1" as="geometry" />
@@ -75,84 +71,97 @@
         <mxCell id="PevXTQub8zok8tY5BlQt-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="305" y="758" width="31" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PevXTQub8zok8tY5BlQt-20" value="检查目标位置的元素" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-50" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-20" target="wRGz6e7Im5JX6txt7jcM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PevXTQub8zok8tY5BlQt-20" value="获取目标位置的角色" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="139" y="869" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-5" value="结算页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="322" y="107" width="120" height="60" as="geometry" />
+          <mxGeometry x="321" y="195" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-9" target="wRGz6e7Im5JX6txt7jcM-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-9" value="和目标元素交互，比如攻击和移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-9" value="和目标角色交互，比如攻击和移动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="966" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-10" target="wRGz6e7Im5JX6txt7jcM-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.99999999999977" y="1177" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-12">
           <mxGeometry x="-0.2685" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-52" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-10" target="wRGz6e7Im5JX6txt7jcM-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-52">
+          <mxGeometry x="-0.0517" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-10" value="是否攻击" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1050" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-11" target="wRGz6e7Im5JX6txt7jcM-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-11" value="玩家道具触发攻击事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1177" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-15" target="wRGz6e7Im5JX6txt7jcM-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-15" value="目标道具触发被攻击前事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="139" y="1270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-17" value="玩家道具触发攻击事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-22" value="是" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-19" target="wRGz6e7Im5JX6txt7jcM-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-19" value="目标是否死亡" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="165" y="1764" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-20" target="wRGz6e7Im5JX6txt7jcM-21">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-19" target="wRGz6e7Im5JX6txt7jcM-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-20" value="玩家道具触发造成伤害事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-21" y="1774" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-21" target="wRGz6e7Im5JX6txt7jcM-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-21" value="玩家道具触发击杀事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-186" y="1774" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-28" value="计算攻击伤害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="139" y="1595" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-30" value="目标道具触发死亡事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-334" y="1774" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-32" value="玩家道具触发造成伤害事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-281" y="1655" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-33" target="wRGz6e7Im5JX6txt7jcM-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-37" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-36">
-          <mxGeometry x="0.0436" y="1" relative="1" as="geometry">
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-59" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-58">
+          <mxGeometry x="-0.009" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-33" value="是否闪避" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1481" width="80" height="80" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-19" value="目标是否死亡" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1469" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wRGz6e7Im5JX6txt7jcM-35" value="目标道具触发闪避事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="301" y="1491" width="120" height="60" as="geometry" />
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-20" target="wRGz6e7Im5JX6txt7jcM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-20" value="目标播放死亡动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-23" y="1479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-48" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-28" target="wRGz6e7Im5JX6txt7jcM-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-28" value="计算攻击伤害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-41" value="玩家移动到目标位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="1479" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-45" target="wRGz6e7Im5JX6txt7jcM-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-45" value="玩家播放攻击动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1271" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-47" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-46" target="wRGz6e7Im5JX6txt7jcM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-46" value="目标播放受击动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="1353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-51" value="玩家移动到目标位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-67" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-54" value="目标发起反击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="1608" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-55" value="计算攻击伤害" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="1715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-56" value="目标播放攻击动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="138.5" y="1825" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wRGz6e7Im5JX6txt7jcM-57" value="玩家播放受击动画" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="1928" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
