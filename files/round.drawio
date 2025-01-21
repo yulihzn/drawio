@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="2Br9nc49Jg9WiYpjVA3y">
-    <mxGraphModel dx="1242" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-1" value="回合开始" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="41" width="120" height="60" as="geometry" />
+          <mxGeometry x="141.5" y="-82" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-3" target="PevXTQub8zok8tY5BlQt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-3" value="放置新生成的草" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139" y="367" width="120" height="60" as="geometry" />
+          <mxGeometry x="138.5" y="205" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-4" target="PevXTQub8zok8tY5BlQt-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-4" value="放置新的怪物" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="461" width="120" height="60" as="geometry" />
+          <mxGeometry x="139.5" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="" tooltip="否" id="PevXTQub8zok8tY5BlQt-8">
           <mxCell style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="PevXTQub8zok8tY5BlQt-5" target="PevXTQub8zok8tY5BlQt-3" edge="1">
@@ -36,7 +36,7 @@
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-5" target="wRGz6e7Im5JX6txt7jcM-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="313" y="137" as="targetPoint" />
+            <mxPoint x="314.5" y="14" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="wRGz6e7Im5JX6txt7jcM-6">
@@ -45,19 +45,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-5" value="检查游戏是否结束" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="137" y="167" width="122" height="116" as="geometry" />
+          <mxGeometry x="138.5" y="44" width="122" height="116" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-13" target="PevXTQub8zok8tY5BlQt-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-13" value="开始玩家回合" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139" y="561" width="120" height="60" as="geometry" />
+          <mxGeometry x="138.5" y="399" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-14" target="PevXTQub8zok8tY5BlQt-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PevXTQub8zok8tY5BlQt-14" value="检查道具触发回合开始事件" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="139" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="138.5" y="498" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PevXTQub8zok8tY5BlQt-15" target="PevXTQub8zok8tY5BlQt-20">
           <mxGeometry relative="1" as="geometry" />
@@ -78,7 +78,7 @@
           <mxGeometry x="139" y="869" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-5" value="结算页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="321" y="195" width="120" height="60" as="geometry" />
+          <mxGeometry x="322.5" y="72" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRGz6e7Im5JX6txt7jcM-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wRGz6e7Im5JX6txt7jcM-9" target="wRGz6e7Im5JX6txt7jcM-10">
           <mxGeometry relative="1" as="geometry" />
